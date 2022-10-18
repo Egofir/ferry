@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dc845a6-bc34-4b2d-a448-7b6e81e9bc5b" name="Changes" comment="" />
+    <list default="true" id="6dc845a6-bc34-4b2d-a448-7b6e81e9bc5b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/config/MyMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/controller/Register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/FerryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/FerryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ferry/FerryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yang/ferry/FerryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/FerryApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/controller/Controller.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -26,9 +42,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="C:\Users\ASUS\.m2\repository" />
-        <option name="mavenHome" value="F:/apache-maven-3.8.5" />
-        <option name="userSettingsFile" value="C:\Users\ASUS\.m2\settings.xml" />
+        <option name="localRepository" value="F:\Java\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="F:/Java/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\Java\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -50,14 +66,28 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ASUS/AppData/Roaming/JetBrains/IntelliJIdea2022.1/jdbc-drivers/MySQL ConnectorJ/8.0.25/mysql-connector-java-8.0.25.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "46171b077997b166bb30cf5494eff2f8"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ferry\src\main\resources\templates" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example" />
     </key>
@@ -65,7 +95,7 @@
   <component name="RunManager">
     <configuration name="FerryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ferry" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.FerryApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yang.FerryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,7 +109,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665996342269</updated>
-      <workItem from="1665996343702" duration="1370000" />
+      <workItem from="1665996343702" duration="3285000" />
+      <workItem from="1666071712706" duration="6475000" />
+      <workItem from="1666078691815" duration="2223000" />
+      <workItem from="1666080941239" duration="7011000" />
+      <workItem from="1666090752723" duration="7993000" />
+      <workItem from="1666099297231" duration="8117000" />
     </task>
     <servers />
   </component>
