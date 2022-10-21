@@ -10,49 +10,74 @@
     <schema id="4" parent="1" name="jforum"/>
     <schema id="5" parent="1" name="mysql"/>
     <schema id="6" parent="1" name="test"/>
-    <table id="7" parent="2" name="user"/>
-    <column id="8" parent="7" name="id">
+    <table id="7" parent="2" name="disallow_word"/>
+    <table id="8" parent="2" name="user"/>
+    <column id="9" parent="7" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>INT(10)|4s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="9" parent="7" name="username">
+    <column id="10" parent="7" name="value">
       <DataType>VARCHAR(255)|12s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="10" parent="7" name="password">
-      <DataType>VARCHAR(255)|12s</DataType>
-      <DefaultExpression>&apos;&apos;</DefaultExpression>
-      <NotNull>1</NotNull>
+    <column id="11" parent="7" name="type">
+      <DataType>INT(10)|4s</DataType>
+      <DefaultExpression>0</DefaultExpression>
       <Position>3</Position>
     </column>
-    <column id="11" parent="7" name="age">
-      <DataType>CHAR(2)|1s</DataType>
-      <Position>4</Position>
-    </column>
-    <column id="12" parent="7" name="sex">
-      <DataType>CHAR(5)|1s</DataType>
-      <Position>5</Position>
-    </column>
-    <index id="13" parent="7" name="PRIMARY">
+    <index id="12" parent="7" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Unique>1</Unique>
     </index>
-    <index id="14" parent="7" name="username">
-      <ColNames>username</ColNames>
-      <Unique>1</Unique>
-    </index>
-    <key id="15" parent="7" name="PRIMARY">
+    <key id="13" parent="7" name="PRIMARY">
       <ColNames>id</ColNames>
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <key id="16" parent="7" name="username">
+    <column id="14" parent="8" name="id">
+      <AutoIncrement>1</AutoIncrement>
+      <DataType>INT(10)|4s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="15" parent="8" name="username">
+      <DataType>VARCHAR(45)|12s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="16" parent="8" name="password">
+      <DataType>VARCHAR(16)|12s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="17" parent="8" name="age">
+      <DataType>INT(10)|4s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="18" parent="8" name="sex">
+      <DataType>VARCHAR(5)|12s</DataType>
+      <Position>5</Position>
+    </column>
+    <index id="19" parent="8" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Unique>1</Unique>
+    </index>
+    <index id="20" parent="8" name="username">
+      <ColNames>username</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="21" parent="8" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="22" parent="8" name="username">
       <ColNames>username</ColNames>
       <UnderlyingIndexName>username</UnderlyingIndexName>
     </key>

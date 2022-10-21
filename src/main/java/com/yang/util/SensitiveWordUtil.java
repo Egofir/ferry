@@ -7,7 +7,7 @@ public class SensitiveWordUtil {
 
     public static void initMap(Collection<String> words) {
         Map<String, Object> map = new HashMap<>(words.size());
-        Map<String, Object> curMap = null;
+        Map<String, Object> curMap;
         Iterator<String> iterator = words.iterator();
         while (iterator.hasNext()) {
             String word = iterator.next();

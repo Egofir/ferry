@@ -9,5 +9,5 @@ import java.util.List;
 public interface UserMapper {
     List<User> queryUserList();
     User queryUserByUsername(String username);
-    int addUser(User user);
+    void addUser(User user);
 }
