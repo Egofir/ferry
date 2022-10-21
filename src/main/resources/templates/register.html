@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,18 +16,13 @@
         <form th:action="@{/ferry/register}" method="post">
             <li>
                 <span>User：</span>
-                <input type="text" name="username" value="" placeholder="4-8位用户名" class="reg_user">
+                <input type="text" name="username" value="" placeholder="用户名不超过15位" class="reg_user">
                 <span class="user_hint"></span>
             </li>
             <li>
                 <span>Password：</span>
                 <input type="password" name="password" value="" placeholder="6-16位密码" class="reg_password">
                 <span class="password_hint"></span>
-            </li>
-            <li>
-                <span>Confirm：</span>
-                <input type="password" name="" value="" placeholder="确认密码" class="reg_confirm">
-                <span class="confirm_hint"></span>
             </li>
 
             <li>
