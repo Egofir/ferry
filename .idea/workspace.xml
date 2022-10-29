@@ -5,15 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dc845a6-bc34-4b2d-a448-7b6e81e9bc5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/mapper/SensitiveWordMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/pojo/SensitiveWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/SensitiveWordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/controller/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/controller/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/util/SensitiveWordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/util/SensitiveWordUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/controller/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yang/controller/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yang/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/common/ApiRestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/exception/FerryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/exception/FerryExceptionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/filter/WebLogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/util/ILock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/util/SimpleRedisLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/FerryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/FerryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/config/MyMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/config/MyMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/controller/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/mapper/SensitiveWordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/model/dao/SensitiveWordMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/model/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/pojo/SensitiveWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/model/pojo/SensitiveWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/model/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/util/PasswordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/util/PasswordUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/util/SensitiveWordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/util/SensitiveWordUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/SensitiveWordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/SensitiveWordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yang/ferry/FerryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yang/ferry/FerryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/FerryApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/config/MyMvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/controller/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/mapper/SensitiveWordMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/pojo/SensitiveWord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/util/PasswordUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/util/SensitiveWordUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/SensitiveWordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/mapper/SensitiveWordMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yang/ferry/FerryApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yang/ferry/FerryApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +53,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/Register.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/UserController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/yang/ferry/exception/FerryExceptionEnum.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/yang/ferry/model/dao/UserMapper.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/yang/ferry/model/pojo/SensitiveWord.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/yang/ferry/service/impl/UserServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/yang/ferry/util/SensitiveWordUtil.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/SensitiveWordMapper.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,7 +101,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/AppData/Roaming/JetBrains/IntelliJIdea2022.1/jdbc-drivers/MySQL ConnectorJ/8.0.25/mysql-connector-java-8.0.25.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/BaiduNetdiskDownload/02_Spring Boot电商项目/辅助材料/free-idea-mybatis-2019.12.18.zip&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -79,22 +119,47 @@
     ]
   }
 }</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ferry\src\main\resources" />
       <recent name="E:\ferry\src\main\resources\templates" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.yang.ferry" />
       <recent name="com.example" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="FerryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RunManager" selected="Spring Boot.FerryApplication">
+    <configuration name="FerryApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ferry" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yang.FerryApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yang.ferry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yang.ferry" />
+      <option name="MAIN_CLASS_NAME" value="com.yang.ferry.FerryApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FerryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ferry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yang.ferry.FerryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FerryApplicationTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -113,7 +178,37 @@
       <workItem from="1666149271454" duration="2257000" />
       <workItem from="1666166464564" duration="5075000" />
       <workItem from="1666246721907" duration="14400000" />
-      <workItem from="1666321101904" duration="12142000" />
+      <workItem from="1666321101904" duration="13013000" />
+      <workItem from="1666401794473" duration="1831000" />
+      <workItem from="1666445188442" duration="50000" />
+      <workItem from="1666528603263" duration="8138000" />
+      <workItem from="1666573181207" duration="152000" />
+      <workItem from="1666575658063" duration="153000" />
+      <workItem from="1666575860227" duration="139000" />
+      <workItem from="1666593155417" duration="1097000" />
+      <workItem from="1666594273290" duration="494000" />
+      <workItem from="1666594780790" duration="23000" />
+      <workItem from="1666594815755" duration="60000" />
+      <workItem from="1666594887762" duration="3441000" />
+      <workItem from="1666665294285" duration="2485000" />
+      <workItem from="1666682402497" duration="1003000" />
+      <workItem from="1666697068307" duration="191000" />
+      <workItem from="1666697552507" duration="28000" />
+      <workItem from="1666697802599" duration="2461000" />
+      <workItem from="1666704802491" duration="5669000" />
+      <workItem from="1666755611149" duration="590000" />
+      <workItem from="1666768062263" duration="5491000" />
+      <workItem from="1666782245710" duration="170000" />
+      <workItem from="1666793853936" duration="107000" />
+      <workItem from="1666795410624" duration="2217000" />
+      <workItem from="1666798350989" duration="1678000" />
+      <workItem from="1666844987985" duration="5354000" />
+      <workItem from="1666877047264" duration="4524000" />
+      <workItem from="1666926129506" duration="274000" />
+      <workItem from="1666927119072" duration="450000" />
+      <workItem from="1666927907126" duration="18316000" />
+      <workItem from="1667006783860" duration="11894000" />
+      <workItem from="1667033679335" duration="4777000" />
     </task>
     <servers />
   </component>
