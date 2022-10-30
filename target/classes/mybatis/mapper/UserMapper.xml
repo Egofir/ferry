@@ -35,4 +35,10 @@
         from ferry_user
         where id = #{id}
     </select>
+    <select id="selectLogin" resultType="com.yang.ferry.model.pojo.User" resultMap="UserMap">
+        select
+        <include refid="Base_Column_List"/>
+        from ferry_user
+        where username = #{username}
+    </select>
 </mapper>

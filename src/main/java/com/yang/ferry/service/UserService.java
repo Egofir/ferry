@@ -11,4 +11,6 @@ public interface UserService {
     void extracted(String username, String password) throws FerryException;
 
     void setSensitiveWord();
+
+    User login(String username, String password) throws FerryException;
 }

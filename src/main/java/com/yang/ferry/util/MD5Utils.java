@@ -18,4 +18,14 @@ public class MD5Utils {
         }
         return new String(md5);
     }
+
+    public static boolean verify(String password, String md5) {
+        char[] pwd = new char[32];
+        char[] salt = new char[32];
+        for (int i = 0; i < PASSWORD_AND_SALT_LENGTH; i++) {
+            pwd[i / 2] = md5.charAt(i);
+            salt[i / 2] = md5.charAt(++i);
+        }
+        return DigestUtil.md5Hex(password + new String(salt)).equals(new String(pwd));
+    }
 }

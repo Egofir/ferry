@@ -11,4 +11,5 @@ public interface UserMapper {
     User queryUserByUsername(String username);
     int addUser(User user);
     User selectByPrimaryKey(int id);
+    User selectLogin(String username);
 }

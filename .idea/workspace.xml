@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dc845a6-bc34-4b2d-a448-7b6e81e9bc5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/util/MD5Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/common/Constant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/Register.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/ferry/exception/FerryExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/exception/FerryExceptionEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/ferry/model/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/model/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/ferry/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/ferry/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/ferry/controller/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/ferry/util/MD5Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/util/MD5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/yang/ferry/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yang/ferry/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/ferry/exception/FerryExceptionEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yang/ferry/exception/FerryExceptionEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/ferry/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yang/ferry/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +181,8 @@
       <workItem from="1667033679335" duration="5410000" />
       <workItem from="1667039989971" duration="1128000" />
       <workItem from="1667051825498" duration="2551000" />
-      <workItem from="1667096543713" duration="4862000" />
+      <workItem from="1667096543713" duration="10645000" />
+      <workItem from="1667118513658" duration="5590000" />
     </task>
     <servers />
   </component>

@@ -78,4 +78,16 @@ public class UserServiceImpl implements UserService {
         }
         SensitiveWordUtil.initMap(list);
     }
+
+    @Override
+    public User login(String username, String password) throws FerryException {
+        User user = userMapper.selectLogin(username);
+        String pwd = user.getPassword();
+        boolean verify = MD5Utils.verify(password, pwd);
+        if (!verify) {
+            throw new FerryException(FerryExceptionEnum.WRONG_PASSWORD);
+        }
+        return user;
+    }
+
 }
