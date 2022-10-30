@@ -6,7 +6,8 @@ public enum FerryExceptionEnum {
     PASSWORD_NOT_CONFORM(10003, "密码不符合规范"),
     NAME_EXISTED(10004, "不允许重名，注册失败"),
     INSERT_FAILED(10005, "插入失败，请重试"),
-    SENSITIVEWORD_EXISTED(10006, "用户名存在敏感词汇");
+    SENSITIVEWORD_EXISTED(10006, "用户名存在敏感词汇"),
+    SYSTEM_ERROR(20000, "系统异常");
 
     Integer code;
     String message;

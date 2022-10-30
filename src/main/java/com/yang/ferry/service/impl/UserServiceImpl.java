@@ -7,6 +7,7 @@ import com.yang.ferry.model.dao.UserMapper;
 import com.yang.ferry.model.pojo.SensitiveWord;
 import com.yang.ferry.model.pojo.User;
 import com.yang.ferry.service.UserService;
+import com.yang.ferry.util.MD5Utils;
 import com.yang.ferry.util.SensitiveWordUtil;
 import com.yang.ferry.util.SimpleRedisLock;
 import org.springframework.aop.framework.AopContext;
@@ -15,6 +16,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
+import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -55,7 +57,11 @@ public class UserServiceImpl implements UserService {
         }
         User user = new User();
         user.setUsername(username);
-        user.setPassword(password);
+        try {
+            user.setPassword(MD5Utils.getMD5Str(password));
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
         int count = userMapper.addUser(user);
         if (count == 0) {
             throw new FerryException(FerryExceptionEnum.INSERT_FAILED);

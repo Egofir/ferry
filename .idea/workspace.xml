@@ -5,45 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dc845a6-bc34-4b2d-a448-7b6e81e9bc5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/common/ApiRestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/exception/FerryException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/exception/FerryExceptionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/filter/WebLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/util/ILock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/util/SimpleRedisLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/util/MD5Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/FerryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/FerryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/config/MyMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/config/MyMvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/controller/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/mapper/SensitiveWordMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/model/dao/SensitiveWordMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/model/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/pojo/SensitiveWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/model/pojo/SensitiveWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/model/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/util/PasswordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/util/PasswordUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/util/SensitiveWordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/util/SensitiveWordUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/SensitiveWordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/SensitiveWordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/yang/ferry/FerryApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yang/ferry/FerryApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/FerryApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/config/MyMvcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/controller/Register.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/mapper/SensitiveWordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/pojo/SensitiveWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/util/PasswordUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/util/SensitiveWordUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/SensitiveWordMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/mapper/SensitiveWordMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yang/ferry/FerryApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yang/ferry/FerryApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/ferry/exception/FerryExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/exception/FerryExceptionEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yang/ferry/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yang/ferry/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/ferry/controller/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/ferry/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yang/ferry/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/ferry/exception/FerryExceptionEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yang/ferry/exception/FerryExceptionEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yang/ferry/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/yang/ferry/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +35,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/Register.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/yang/ferry/controller/UserController.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/yang/ferry/exception/FerryExceptionEnum.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/yang/ferry/model/dao/UserMapper.java" root0="FORCE_HIGHLIGHTING" />
@@ -208,7 +180,10 @@
       <workItem from="1666927119072" duration="450000" />
       <workItem from="1666927907126" duration="18316000" />
       <workItem from="1667006783860" duration="11894000" />
-      <workItem from="1667033679335" duration="4777000" />
+      <workItem from="1667033679335" duration="5410000" />
+      <workItem from="1667039989971" duration="1128000" />
+      <workItem from="1667051825498" duration="2551000" />
+      <workItem from="1667096543713" duration="4862000" />
     </task>
     <servers />
   </component>
